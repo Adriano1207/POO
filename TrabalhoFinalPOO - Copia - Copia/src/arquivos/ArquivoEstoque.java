@@ -67,7 +67,7 @@ public void imp(List a) throws Exception{
 		   if(campos[6].equals("Perecivel: true")==true && campos[7].equals("Data de Validade:null")==false){
 		   String dv[] = campos[7].split(" ");
 		   System.out.println("Data de Validade: "+dv[4]+"/"+dv[3]+"/"+dv[7]);}
-		   else System.out.println("Data de Validade: Produto Não Perecivel");
+		   else System.out.println("Data Validade: Produto Não Perecivel");
 		   System.out.println(campos[5]);
 }
 	br.close();
